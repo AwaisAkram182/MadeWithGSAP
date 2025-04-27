@@ -102,9 +102,9 @@
       bottom: 130px;
       gap:20px
     }
-    .footer{
+    .footerr{
       position: relative;
-      top: 320px;
+      top: 330px;
     }
     .fotterlink{
       padding-left: 5px;
@@ -151,9 +151,9 @@
       font-size: x-large;
       padding-top: 20px;
     }
-    .footer{
+    .footerr{
       overflow: hidden;
-      height:800px
+      height:730px
     }
   }
 
@@ -209,7 +209,7 @@
       bottom: 130px;
       gap:20px
     }
-    .footer{
+    .footerr{
       position: relative;
       top: 320px;
     }
@@ -289,7 +289,7 @@
   .Fdate{
    padding-bottom: 145px;
   }
-  .footer{
+  .footerr{
     overflow: hidden;
     height:720px;
   }
@@ -313,58 +313,105 @@
  }
  
 
-                        /* //faq/// */
-
-@media(min-width:769px) and (max-width:900px){
- .faqhtxt{
-  position: relative;
-  top:15px
- }
- @media(min-width:769px) and (max-width:800px){
-  .faqhtxt{
+                   /* FAQ Responsive Styling */
+@media (min-width: 769px) and (max-width: 900px) {
+  .faqhtxt {
     position: relative;
-    top:32px
-   }
- }
+    top: 15px;
+  }
 }
 
-         /* //faq section */
-@media(min-width:480px) and (max-width:620px){
-  .faqtxtdiv{
-    padding: 0; 
+@media (min-width: 769px) and (max-width: 800px) {
+  .faqhtxt {
+    position: relative;
+    top: 32px;
+  }
+}
+
+/* FAQ section small devices */
+@media (min-width: 480px) and (max-width: 620px) {
+  .faqtxtdiv {
     padding-left: 20px;
     position: absolute;
-    top:220px
+    top: 220px;
   }
-  .faqhtxt{
-    height:460px
+  .fotteradjust {
+    min-height: 24rem; /* smaller but still structured */
+    position: relative;
+  }
+  .faqhtxt {
+    height: 460px;
   }
 }
-@media(min-width:320px) and (max-width:480px){
-  .faqtheadertxt{
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .faqtheadertxt {
     font-size: 14vw;
   }
-  .faqheaderpara{
-    font-size: 30px;
+  .faqheaderpara {
+    font-size: 6vw;
     width: 80%;
     padding: 0;
   }
- 
-  .faqtxtdiv{
-    padding: 0; 
+  .faqtxtdiv {
     padding-left: 20px;
     position: absolute;
-    top:220px
+    top: 220px;
   }
-  .faqhtxt{
-    height:460px
+  .faqhtxt {
+    height: 460px;
   }
-  .footer{
+  .fotteradjust {
+    min-height: 24rem;
+    margin-top: -20px;
+    padding-bottom: 2rem;
+  }
+  .marquee {
+    height: 15vh;
+  }
+  .lastfottersec{
+    position:relative ;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .madewithgsapp{
+    font-size: x-large;
+    padding-bottom: 170px;
+  }
+  .lastfottersecc{
     position: relative;
-    top:0;
-  margin-top: -30px;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
   }
-  .marquee{
-    height:15vh;
-   }
+  .lastFsecc{
+    padding: 0;
+    width:20%;
+    padding-left:30px;
+  }
 }
+@media (max-width: 480px) {
+  .your-div-class { /* replace with your parent div class if needed */
+    padding: 12px 16px;
+    font-size: 10px; /* smaller font on mobile */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .your-div-class h1 {
+    font-size: 12px;
+  }
+  .Fdatee{
+    font-size: x-large;
+    padding-left: 20px;
+  }
+  .Fdatee2{
+    font-size: x-large;
+    padding-right: 20px;
+  }
+  .adjjj{
+    padding-left: 40px;
+  }
+}
+

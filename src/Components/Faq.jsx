@@ -83,54 +83,67 @@ const Faq = () => {
                  <motion.h1 initial={{x:0}} animate={{x:-1000}} transition={{duration:8, repeat:Infinity ,ease:'linear' }} >DONT compete with</motion.h1>      
            </motion.div>
         </div>
-        {/* footer section */}
-         <div className='footer w-full   h-150 max-lg:relative   max-md:bottom-10 max-lg:bottom-12 '>
-                <div className='cntrsec w-full h-10 '>   {/*uupersection having button*/}
-                   <div className='flex flex-col -mt-5 justify-center pt-23 items-center gap-8 w-full'>
-                        <h1 className='fontstyle text-2xl'>Eager to learn GSAP?</h1>
-                        <Link className='fotterlink px-6 py-2 border-1 bg-white text-black  border-slate-600 text-3xl fontstyle' to="/Faq">Learn From Experts</Link>
-                   </div>
-                </div>   {/*part1*/}
-                <motion.div initial={{opacity:0}} whileInView={{opacity:100}} transition={{duration:3}} viewport={{once:true}} className='mt-50 w-full  flex  middelpart h-70 max-md:flex-col'>
-                    <div className='subpt1 w-[40%] flex flex-col gap-8 h-full p-10 max-md:w-full'>
-                        <h1 className='nevermiss fontstyle text-4xl tracking-tight  '>Never miss whats's Next</h1>
-                        <p className='part1txt fontstyle text-2xl'>By submitting your email, you’ll be the first to know about upcoming updates for Made With Gsap. You can unsubscribe at any time.</p>
-                    </div>                          {/*part2*/}
-                        <div className='subpt2 flex fottradj gap-0 py-10 w-[60%] h-full max-md:flex-col max-md:py-0 max-md:w-full  max-md:px-6  '>
-                            <div className='w-[25%] removefooterpadding px-5 h-full flex flex-col max-md:w-full  '>
-                                <h1 className=' linkstext text-zinc-700 fontstyle text-2xl '>Social</h1>
-                                <a className='fontstyle text-2xl linktxtdata' href="https://www.facebook.com/awais.manais.75">Facebook</a>
-                                <a className='fontstyle text-2xl linktxtdata' href="https://www.instagram.com/aws._.x36/?igsh=ZGUzMzM3NWJiOQ%3D%3D#">Instagram</a>
-                            </div>
-                            <div className='w-[35%] addresswidth h-full px-5 flex flex-col max-md:w-full  '>
-                                <h1  className='linkstext text-zinc-700 fontstyle text-2xl '>Address</h1>
-                                <h1 className='fontstyle text-2xl linktxtdata' >LHR 69-A JOHAR TOWN, PAKISTAN</h1>
-                               <h1 className='fontstyle text-2xl linktxtdata'>JoharTown Lhr</h1>
-                            </div>
-                            <div className='w-[35%]  h-full flex  flex-col email max-md:w-full max-md:px-5 '>
-                                <h1  className='text-zinc-700 linkstext fontstyle text-2xl '>E-Mail</h1>
-                                <h1 className='fontstyle text-2xl linktxtdata' >awaisakram182@gmail.com</h1>                       
-                            </div>
-                        </div>
-                </motion.div>
-                                {/* last part */}
-                    <motion.div initial={{opacity:0}} whileInView={{opacity:100}} transition={{duration:3}} viewport={{once:true}} className='w-full lastfottersec  h-30 flex items-center max-md:relative max-md:top-55   '>
-                        <div className='w-[50%] lastFsec h-full fontstyle  flex items-center px-10 text-2xl gap-10   '>
-                            <h1 className='Fdate'>2025</h1>
-                            <h1 className='checkhidden '>CopyRights</h1>
-                            <h1 className='checkhidden '>Terms</h1>
-                            <h1 className='checkhidden '>Privacy Policy</h1>
-                        </div>
-                        <div className='w-[50%]  h-full '>
-                            <div className='madewithgsap flex items-center justify-center w-full h-full text-8xl fontstyle max-md:text-3xl '>
-                                <Link className='-mt-5 ' to="/">Made With Gsap</Link>
-                            </div>
-        
-                        </div>
-                    </motion.div>
-                        
-               
-            </div>
+         {/* footer */}
+
+        <div className='fotteradjust w-full  min-h-[32rem] flex flex-col justify-between'>
+  {/* Top section with button */}
+  <div className='flex flex-col justify-center items-center gap-8 py-10'>
+    <h1 className='fontstyle text-2xl'>Eager to learn GSAP?</h1>
+    <Link className='fotterlink px-6 py-2 bg-white text-black border border-slate-600 text-2xl fontstyle' to="/Faq">
+      Learn From Experts
+    </Link>
+  </div>
+
+  {/* Middle section */}
+  <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} viewport={{ once: true }}
+    className='w-full adjjj flex flex-wrap justify-between px-10 py-8 bg-white'>
+    
+    <div className='w-full md:w-[40%] flex flex-col gap-6 mb-8 md:mb-0'>
+      <h1 className='nevermiss fontstyle text-6xl tracking-tight'>Never miss what's Next</h1>
+      <p className='part1txt fontstyle text-2xl'>By submitting your email, you’ll be the first to know about updates. You can unsubscribe at any time.</p>
+    </div>
+
+    <div className='w-full md:w-[55%] flex flex-wrap gap-6'>
+      <div className='w-1/2 md:w-1/3 flex flex-col'>
+        <h1 className='text-zinc-700 fontstyle text-xl mb-2'>Social</h1>
+        <a className='fontstyle text-2xl' href="https://www.facebook.com/awais.manais.75">Facebook</a>
+        <a className='fontstyle text-2xl' href="https://www.instagram.com/aws._.x36/?igsh=ZGUzMzM3NWJiOQ%3D%3D#">Instagram</a>
+      </div>
+
+      <div className='w-1/2 md:w-1/3 flex flex-col'>
+        <h1 className='text-zinc-700 fontstyle text-xl mb-2'>Address</h1>
+        <p className='fontstyle text-2xl'>LHR 69-A Johar Town, Pakistan</p>
+        <p className='fontstyle text-2xl'>Johar Town Lhr</p>
+      </div>
+
+      <div className='w-full md:w-1/3 flex flex-col'>
+        <h1 className='text-zinc-700 fontstyle text-xl mb-2'>E-Mail</h1>
+        <p className='fontstyle text-2xl'>awaisakram182@gmail.com</p>
+      </div>
+    </div>
+  </motion.div>
+
+  {/* Bottom section */}
+  <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 3 }}
+  viewport={{ once: true }}
+  className="w-full flex items-center justify-between px-4 py-4 bg-white text-black text-xs md:text-sm font-medium"
+>
+  {/* Left Side */}
+  <div>
+    <h1 className='Fdatee text-3xl px-5 fontstyle max-md:text-2xl'>2025</h1>
+  </div>
+
+  {/* Right Side */}
+  <div>
+    <h1 className='Fdatee2 text-6xl pr-7 max-md:text-3xl fontstyle '>Made With Gsap</h1>
+  </div>
+</motion.div>
+
+</div>
+
     </>
   );
 };

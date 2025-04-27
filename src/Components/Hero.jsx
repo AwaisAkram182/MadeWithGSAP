@@ -97,7 +97,7 @@ const Hero = () => {
         </div>
                         {/* Fotter section */}
         
-    <div className='footer w-full  h-150 max-lg:relative   max-md:top-110 '>
+    <div className='footerr  w-full  h-150 max-lg:relative   max-md:top-110 '>
         <div className='cntrsec w-full h-10'>   {/*uupersection having button*/}
            <div className='flex flex-col mt-5 justify-center pt-23 items-center gap-8 w-full'>
                 <h1 className='fontstyle text-2xl'>Eager to learn GSAP?</h1>

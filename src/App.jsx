@@ -1,6 +1,6 @@
  import React from 'react'
  import Navbar from '../src/Components/Navbar'
- import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+ import { HashRouter as Router, Routes,Route } from 'react-router-dom'
  import Faq from '../src/Components/Faq'
  import Hero from '../src/Components/Hero'
  
