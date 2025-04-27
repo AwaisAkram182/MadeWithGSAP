@@ -1,0 +1,370 @@
+@import "tailwindcss";
+.fontstyle{
+    font-family: "Big Shoulders", sans-serif;
+    
+  }
+  .boldstyle{
+    font-family: "Anton",sans-serif
+  }
+  @media(min-width:900px) and (max-width:1023px){
+    .sec1{
+      font-size: 90px;
+      position: relative;
+      top: 9%;
+    }
+    .email{
+      width:35vw;
+    }
+    .madewithgsap{
+      font-size: 50px;
+    }
+  }
+  @media(min-width:769px) and (max-width:900px){
+    
+    .fottradj{
+      display:flex;
+      flex-direction: column;
+      place-items: center;
+      gap: 10px;
+    }
+    .removefooterpadding{
+      padding: 0;
+      width:230px
+    }
+    .madewithgsap{
+      font-size: 60px;
+      margin-top: 10px;
+    }
+    .addresswidth{
+      width:270px
+    }
+    .email{
+      width:230px
+    }
+    .lastfottersec{
+      margin-top: 60px;
+    }
+
+  }
+  @media(min-width:481px) and (max-width:650px){
+    .checkhidden{
+      visibility: hidden;
+    }
+  }
+  @media(min-width:651px) and (max-width:769px){
+    .videosectxt{
+      line-height: 40px;
+    }
+    .checkhidden{
+      visibility: visible;
+    }
+   
+  }
+  @media(min-width:320px) and (max-width:480px){
+    .herosec{
+      height:550px
+    }
+    .sec1{
+       padding-left: 28px;
+       position: relative;
+       padding-top: 70px;
+    }
+    .sec2{
+      position: relative;
+      bottom: 30px;
+    }
+    .marquee{
+      height: 60px;
+    }
+    .videosection{
+      height: 500px;
+    }
+    .videosectxt{
+      line-height: 30px;
+    }
+    .videotxt1{
+      padding: 0;
+      padding-top: 45px;
+    }
+    .learntext{
+      padding-top: 0px;
+      margin-top: -70px;
+    }
+    .cardssec{
+      height:900px
+    }
+    .cardData{
+       rotate:0deg;
+       width:250px
+    }
+    .cardsflex{
+      position: relative;
+      bottom: 130px;
+      gap:20px
+    }
+    .footer{
+      position: relative;
+      top: 320px;
+    }
+    .fotterlink{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: x-large;
+    }
+    .nevermiss{
+      font-size: x-large;
+    }
+    .subpt1{
+      padding-top: 0;
+      padding-left: 17px;
+      width:100%;
+    }
+    .part1txt{
+      font-size: large;
+      margin-top: -15px;
+    }
+    .subpt2{
+      padding-top: 0;
+      padding-left: -0px;
+    }
+    .linkstext{
+      font-size: larger;
+    }
+    .linktxtdata{
+      font-size: x-large;
+    }
+    .lastfottersec{
+      position: relative;
+      top: 160px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .lastFsec{
+      padding: 0;
+      width:20%;
+      padding-left:20px;
+    }
+    .checkhidden{
+      visibility:hidden;
+    }
+    .madewithgsap{
+      font-size: x-large;
+      padding-top: 20px;
+    }
+    .footer{
+      overflow: hidden;
+      height:800px
+    }
+  }
+
+
+
+  @media(min-width:385px) and (max-width:480px){
+    .herosec{
+      height:550px
+    }
+    .sec1{
+       padding-left: 28px;
+       position: relative;
+       padding-top: 70px;
+    }
+    .respnsivetext{
+     font-size:63px;   
+    }
+    .sec2{
+      position: relative;
+      top: 5px;
+    }
+    .marquee{
+      height: 70px;
+    }
+    .videosection{
+      height: 510px;
+    }
+    .videosectxt{
+      line-height: 30px;
+    }
+    .videotxt1{
+      padding: 0;
+      padding-top: 20px;
+    }
+    @media(min-width:450px) and (max-width:480px){
+      .videosection{
+        height: 520px;
+      }
+    }
+    .learntext{
+      padding-top: 0px;
+      margin-top: -70px;
+    }
+    .cardssec{
+      height:900px
+    }
+    .cardData{
+       rotate:0deg;
+       width:250px
+    }
+    .cardsflex{
+      position: relative;
+      bottom: 130px;
+      gap:20px
+    }
+    .footer{
+      position: relative;
+      top: 320px;
+    }
+    .fotterlink{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: x-large;
+    }
+    .nevermiss{
+      font-size: x-large;
+    }
+    .subpt1{
+      padding-top: 0;
+      padding-left: 17px;
+      width:100%;
+    }
+    .part1txt{
+      font-size: large;
+      margin-top: -15px;
+    }
+    .subpt2{
+      padding-top: 0;
+      padding-left: -0px;
+    }
+    .linkstext{
+      font-size: larger;
+    }
+    .linktxtdata{
+      font-size: x-large;
+    }
+    .lastfottersec{
+      position: relative;
+      top: 160px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .lastFsec{
+      padding: 0;
+      width:20%;
+      padding-left:20px;
+    }
+    .checkhidden{
+      visibility:hidden;
+    }
+    .madewithgsap{
+      font-size: x-large;
+      padding-top: 20px;
+    }
+    .footer{
+      overflow: hidden;
+      height:800px
+    }
+  }
+  @media(min-width:332px) and (max-width:450px){
+    .footer{
+     overflow: hidden;
+     height:750px;
+   }
+   .madewithgsap{
+     font-size: x-large;
+     padding-bottom: 170px;
+   }
+   .Fdate{
+    padding-bottom: 100px;
+   }
+   .subpt2{
+    margin-top:-20px;
+    padding-left: -0px;
+  }
+ }
+  
+ @media(min-width:350px) and (max-width:450px){
+  .madewithgsap{
+    font-size: x-large;
+    margin-top: -25px;
+  }
+  .Fdate{
+   padding-bottom: 145px;
+  }
+  .footer{
+    overflow: hidden;
+    height:720px;
+  }
+ }
+ @media(min-width:451px) and (max-width:480px){
+  .madewithgsap{
+    font-size: x-large;
+    margin-top: -60px;
+  }
+  .Fdate{
+   padding-bottom: 115px;
+  }
+  .footer{
+    overflow: hidden;
+    height:730px;
+  }
+  .videotxt1{
+    padding: 0;
+    padding-top: 10px;
+  }
+ }
+ 
+
+                        /* //faq/// */
+
+@media(min-width:769px) and (max-width:900px){
+ .faqhtxt{
+  position: relative;
+  top:15px
+ }
+ @media(min-width:769px) and (max-width:800px){
+  .faqhtxt{
+    position: relative;
+    top:32px
+   }
+ }
+}
+
+         /* //faq section */
+@media(min-width:480px) and (max-width:620px){
+  .faqtxtdiv{
+    padding: 0; 
+    padding-left: 20px;
+    position: absolute;
+    top:220px
+  }
+  .faqhtxt{
+    height:460px
+  }
+}
+@media(min-width:320px) and (max-width:480px){
+  .faqtheadertxt{
+    font-size: 14vw;
+  }
+  .faqheaderpara{
+    font-size: 30px;
+    width: 80%;
+    padding: 0;
+  }
+ 
+  .faqtxtdiv{
+    padding: 0; 
+    padding-left: 20px;
+    position: absolute;
+    top:220px
+  }
+  .faqhtxt{
+    height:460px
+  }
+  .footer{
+    position: relative;
+    top:0;
+  margin-top: -30px;
+  }
+  .marquee{
+    height:15vh;
+   }
+}
